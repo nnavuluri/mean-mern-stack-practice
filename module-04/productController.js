@@ -11,7 +11,7 @@ var product =[  { id: 1, name: 'Laptop', price: 999.99 },
 ];
 
 router.get('/', function (req, res) {
-  res.send(' express is super tool and easy to develop apis ');
+  res.json(' express is super tool and easy to develop apis ');
 
 });
 
