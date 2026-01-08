@@ -1,0 +1,2 @@
+Node is awesome ,but synchronous fs is not!
+ Appending new data to sample.txt file.

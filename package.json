@@ -1,0 +1,20 @@
+{
+  "name": "crudapi",
+  "version": "1.0.0",
+  "description": "crud operations using express and mongodb",
+  "keywords": [
+    "express",
+    "node",
+    "mongo"
+  ],
+  "license": "ISC",
+  "author": "nag navuluri",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
