@@ -1,0 +1,15 @@
+services:
+  clinical-api:
+    container_name: clinical-api
+    restart: always
+    build: .
+    ports:
+      - "80:8000"
+    links:
+      - mongo
+  mongo:
+    image: mongo
+    container_name: mongo
+    restart: always
+    ports:
+      - "27017:27017"
