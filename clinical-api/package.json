@@ -1,0 +1,27 @@
+{
+  "name": "clinical-api",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "mongo",
+    "mongoose",
+    "babel"
+  ],
+  "license": "ISC",
+  "author": "nnavuluri",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.28.6",
+    "@babel/node": "^7.28.6",
+    "@babel/preset-env": "^7.28.6",
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.4",
+    "nodemon": "^3.1.11"
+  }
+}
