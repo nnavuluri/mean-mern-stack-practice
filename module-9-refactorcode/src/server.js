@@ -1,6 +1,7 @@
 //import express from 'express';
 var express=require('express');
 var app=express();
+var cors=require('cors');
 
 import properties from './config/properties'
 import db from './config/db'
@@ -11,6 +12,7 @@ db();
 var bodyParser=require('body-parser');
 app.use(bodyParser.urlencoded({extended:true}));     
 app.use(bodyParser.json());
+app.use(cors());
 
 
 var productsRouter=express.Router();
